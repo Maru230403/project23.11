@@ -31,11 +31,12 @@ def display_data():
 
     # 데이터프레임을 JSON 형식으로 변환하여 data.json 파일에 저장합니다.
     json_data = df.to_dict(orient='records')
-    with open('static/js/kweather.json', 'w') as json_file:
-        json.dump(json_data, json_file, indent=2)
+    # with open('static/js/kweather.json', 'w') as json_file:
+    #     json.dump(json_data, json_file, indent=2)
 
-    # HTML 템플릿을 렌더링하고, 생성된 HTML 코드를 클라이언트에게 반환합니다.
-    return render_template('index.html', html_table=html_table)
+    # # HTML 템플릿을 렌더링하고, 생성된 HTML 코드를 클라이언트에게 반환합니다.
+    # return render_template('index.html', html_table=html_table)
+    return json.dumps(json_data)
 
 # 스크립트가 직접 실행되었을 때만 Flask 애플리케이션을 실행합니다.
 if __name__ == '__main__':
