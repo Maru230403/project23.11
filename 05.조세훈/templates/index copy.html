@@ -7,8 +7,6 @@
     <title>Weather Data Visualization</title>
     <!-- chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- 안내메시지 창 만들때 사용되는 것-->
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-tooltip"></script>
     <style>
         div {
             display: flex;
@@ -22,7 +20,6 @@
         }
         .chart-container {
             position: relative;
-            text-align: center; /* 텍스트 중앙 정렬을 위한 추가 스타일 */
         }
         .chart-image {
             position: absolute;
@@ -111,23 +108,6 @@
                         },
                         options: {
                             responsive: false,
-                            plugins: {
-                                tooltip: {
-                                    enabled: false,
-                                },
-                            },
-                            onHover: (event, chartElement) => {
-                                document.body.style.cursor = chartElement[0] ? 'pointer' : 'default';
-                            },
-                            onClick: (event, chartElement) => {
-                                if (chartElement[0]) {
-                                    // chartElement를 기반으로 원하는 동작 수행
-                                    console.log('Clicked on chart element:', chartElement[0]);
-                                }
-                            },
-                            tooltips: {
-                                enabled: false, // 툴팁 비활성화
-                            },
                         },
                     });
 
