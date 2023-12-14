@@ -1,9 +1,9 @@
 이미지,생활지수,지수,안내멘트,그래프 값,그래프 최댓값
-../img/icon_idx_carwash.png?ver=20231214,세차지수,0,세차하기 안 좋은 날씨예요,0,100
+../img/icon_idx_carwash.png?ver=20231214,세차지수,0,오늘은 세차하기에 최악의 날씨,0,100
 ../img/icon_idx_running.png?ver=20231214,달리기지수,0,야외조깅은 절대 자제하세요,0,100
-../img/icon_idx_washing.png?ver=20231214,빨래지수,0,굳이 오늘 빨래해야 한다면 빨래방으로,0,100
+../img/icon_idx_washing.png?ver=20231214,빨래지수,0,날씨가 안 좋으니 빨래는 다음으로!,0,100
 ../img/icon_idx_sleep.png?ver=20231214,수면지수,20,수면을 위해 적정 온습도를 유지하세요,20,100
-../img/icon_idx_umb.png?ver=20231214,우산지수,80,"요란한 비나 눈 예상, 큰 우산 필수!",80,100
-../img/icon_life_uv.png?ver=20231214,자외선지수,0,자외선 걱정없는 날씨에요,25,100
-../img/icon_life_cold.png?ver=20231214,감기지수,3,보온 유지에 신경 써주세요,75,100
-../img/icon_life_freez.png?ver=20231214,동파지수,25,동파! 안심해도 좋아요,25,100
+../img/icon_idx_umb.png?ver=20231214,우산지수,80,크고 튼튼한 우산 필수!,80,100
+../img/icon_life_uv.png?ver=20231214,자외선지수,0,자외선 걱정 없는 날이에요.,25,100
+../img/icon_life_cold.png?ver=20231214,감기지수,3,노약자는 외부 활동을 되도록 삼가요,75,100
+../img/icon_life_freez.png?ver=20231214,동파지수,25,동파지수가 매우 낮아요,25,100
