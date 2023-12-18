@@ -108,6 +108,25 @@
                         },
                         options: {
                             responsive: false,
+                            plugins: {
+                                tooltip: {
+                                    enabled: false,
+                                },
+                            },
+                            onHover: (event, chartElement) => {
+                                document.body.style.cursor = chartElement[0] ? 'pointer' : 'default';
+                            },
+                            onClick: (event, chartElement) => {
+                                if (chartElement[0]) {
+                                    var clickedIndex = chartElement[0]['index'];
+                                    var clickedData = jsonData[clickedIndex];
+                                    var description = clickedData["안내멘트"];
+                                    alert(description);
+                                }
+                            },
+                            tooltips: {
+                                enabled: false, // 툴팁 비활성화
+                            },
                         },
                     });
 
